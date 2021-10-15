@@ -87,7 +87,7 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">Ofrecemos la compra y reserva de tiquetes aereos.</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Somos una compañia con mas de 20 años de experiencia.</h2>
+          <h2 data-aos="fade-up" data-aos-delay="400">Somos una compañia con más de 20 años de experiencia.</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -104,7 +104,54 @@
     </div>
 
   </section><!-- End Hero -->
-
+  <section id="busqueda" class="d-flex align-items-center">
+    <div class="container pt-5">
+        <h3 style="color: blue;">Buscar Vuelo</h3>
+        <div style="border-radius: 0.5rem;">
+          <div class="row">
+            <div class="col-lg-6 pl-5 mt-3 mb-3">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Origen</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Destino</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Fecha Ida</label>
+                  <input type="date" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Fecha Vuelta</label>
+                  <input type="date" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="radio" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Ida y vuelta</label>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="radio" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Solo ida</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Buscar</button>
+              </form>
+            </div>
+            <div class="col-lg-4 mt-3 mb-3 offset-md-1" >
+              <h4 class="mb-3" style="color: blue;">Destinos mas vendidos</h4>
+              <ul>
+                <li><a>Costa Rica - USA</a></li>
+                <li><a>España - USA</a></li>
+                <li><a>Costa Rica - Mexico</a></li>
+                <li><a>Japon - Costa Rica</a></li>
+                <li><a>Mexico - Francia</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -1128,8 +1175,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
+          <h2>Contacto</h2>
+          <p>Contactanos</p>
         </header>
 
         <div class="row gy-4">
@@ -1140,29 +1187,30 @@
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street,<br>New York, NY 535022</p>
+                  <h3>Dirección</h3>
+                  <p>Villa Bonita de Alajuela, 300 mts suroeste de Perimercados <br>y 300 sur (carretera a Villa Bonita).</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                  <h3>Teléfono</h3>
+                  <p>+506 2435 5000</p>
+                  <p>+506 2401 5200</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
+                  <h3>Correo</h3>
+                  <p>jesus.skyline@sky.com<br>esteban.skyline@sky.com<br>amanda.skyline@sky.com</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                  <h3>Horario</h3>
+                  <p>Lunes - Viernes<br>7:00AM - 09:00PM</p>
                 </div>
               </div>
             </div>
@@ -1174,27 +1222,27 @@
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required>
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" placeholder="Tu Correo" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  <input type="text" class="form-control" name="subject" placeholder="Descripción" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
+                  <div class="loading">Cargando</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
 
-                  <button type="submit">Send Message</button>
+                  <button type="submit">Enviar Mensaje</button>
                 </div>
 
               </div>
@@ -1217,12 +1265,12 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12 text-center">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Nuestro boletín de noticias</h4>
+            <p>Recibe a tu correo las noticias de descuentos, promociónes y más</p>
           </div>
           <div class="col-lg-6">
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Suscribirse">
             </form>
           </div>
         </div>
@@ -1237,7 +1285,8 @@
               <img src="assets/img/logo.png" alt="">
               <span>Skyline</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Ofrecemos la compra y reserva de tiquetes aereos. 
+                Somos una compañia con más de 20 años de experiencia.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -1247,35 +1296,35 @@
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links útiles</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Acerca de</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Vuelos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terminos de servicio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Politica de privacidad</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Nuestros Servicios</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Vuelos de Ida</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Vuelos de Ida y regreso</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Reservaciones</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Promociones</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
+            <h4>Contactanos</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              300 mts suroeste de Perimercados <br>
+              y 300 sur (carretera a Villa Bonita) <br>
+              Alajuela, Villa bonita<br>
+              Costa Rica<br><br>
+              <strong>Teléfono:</strong> +506 2435 5000<br>
+              <strong>Correo:</strong> jesus.skyline@sky.com<br>esteban.skyline@sky.com<br>amanda.skyline@sky.com
             </p>
 
           </div>
@@ -1286,7 +1335,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Skyline</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Skyline</span></strong>. Todos los Derechos Reservados
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
